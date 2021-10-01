@@ -14,7 +14,7 @@ public class ChartDrawer extends JFrame {
     Ticker[] prices = null;
 
     public ChartDrawer() {
-        super("Lines Drawing Demo");
+        super("S&P Data Chart");
 
         setSize(2000, 1400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

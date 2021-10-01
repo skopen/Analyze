@@ -10,12 +10,12 @@ public class Strategy {
     public void readData(boolean reverse)
     {
         try (
-             //  BufferedReader br = new BufferedReader(new FileReader("1998-2000-S_P_500.csv"))
-                // BufferedReader br = new BufferedReader(new FileReader("1998-2003-S_P_500.csv"))
-                //BufferedReader br = new BufferedReader(new FileReader("historical-S_P_500.csv"))
-                BufferedReader br = new BufferedReader(new FileReader("1997-2021-S_P_500.csv"))
-              // BufferedReader br = new BufferedReader(new FileReader("2007-2012-S_P_500.csv"))
-               //  BufferedReader br = new BufferedReader(new FileReader("TEST.csv"))
+             //  BufferedReader br = new BufferedReader(new FileReader("data/1998-2000-S_P_500.csv"))
+                // BufferedReader br = new BufferedReader(new FileReader("data/1998-2003-S_P_500.csv"))
+                //BufferedReader br = new BufferedReader(new FileReader("data/historical-S_P_500.csv"))
+                BufferedReader br = new BufferedReader(new FileReader("data/1997-2021-S_P_500.csv"))
+              // BufferedReader br = new BufferedReader(new FileReader("data/2007-2012-S_P_500.csv"))
+               //  BufferedReader br = new BufferedReader(new FileReader("data/TEST.csv"))
         )
         {
 
