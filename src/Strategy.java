@@ -21,7 +21,7 @@ public class Strategy {
 
             ArrayList<Ticker> prices2 = new ArrayList<Ticker>();
 
-            String line;
+            String line = br.readLine(); // ignore the first header line read
             while ((line = br.readLine()) != null) {
                // System.out.println(line);
                 String[] tokens = line.split(",");
